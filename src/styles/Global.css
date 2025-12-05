@@ -1,0 +1,40 @@
+/* Global Color Palette CSS Variables */
+:root {
+  /* Primary Colors */
+  --color-primary-navy: #2b2e83;
+  --color-primary-royal: #3d4de6;
+  --color-primary-bright: #1e90ff;
+
+  /* Secondary/Accent Colors */
+  --color-accent-coral: #ff6b7a;
+  --color-accent-orange: #ff8c42;
+  --color-accent-gray: #6b7280;
+  --color-accent-cyan: #4dd4e8;
+
+  /* Neutral Colors */
+  --color-white: #ffffff;
+  --color-gray-light: #e5e7eb;
+  --color-gray-medium: #5b5b5b;
+  --color-gray-dark: #333333;
+
+  /* Supporting Colors */
+  --color-pink-light: #ffb3ba;
+  --color-teal: #40e0d0;
+
+  /* Semantic Colors (Usage-based) */
+  --color-background: var(--color-white);
+  --color-background-secondary: var(--color-gray-light);
+  --color-text-primary: var(--color-gray-dark);
+  --color-text-secondary: var(--color-gray-medium);
+  --color-heading: var(--color-primary-navy);
+  --color-button-primary: var(--color-primary-royal);
+  --color-button-secondary: var(--color-white);
+  --color-link: var(--color-primary-bright);
+  --color-border: var(--color-gray-light);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
